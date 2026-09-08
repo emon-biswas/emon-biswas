@@ -21,7 +21,7 @@ I focus on cybersecurity, ethical hacking, web security, penetration testing, an
 
 ## 🧰 Tools & Technologies
 
-`Kali Linux` • `Burp Suite` • `Nmap` • `Wireshark` • `Metasploit` • `Python` • `Git` • `GitHub`
+`Kali Linux` • `Burp Suite` • `Nmap` • `Wireshark` • `Metasploit` • `Python` • `Git` • `GitHub` • `panda`
 
 ---
 
