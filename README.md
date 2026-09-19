@@ -53,7 +53,7 @@ Notes and write-ups from legal CTF and cybersecurity labs.
 ## 🤝 Connect With Me
 
 💼 **LinkedIn:** Md Emon Biswas
-📘 **Facebook:** Emon
+📘 **Facebook:** Emon Biswas
 
 ---
 
