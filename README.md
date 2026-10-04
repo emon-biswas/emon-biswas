@@ -6,17 +6,20 @@ I focus on cybersecurity, ethical hacking, web security, penetration testing, an
 
 ---
 
-## 🛡️ Cyber Security Focus
+Present Status
 
-* 🌐 Web Application Security
-* 🔍 Penetration Testing
-* 🐧 Linux & Kali Linux
-* 🌐 Network Security
-* 🧪 CTF & Security Labs
-* 🐍 Python for Security
-* 🔐 OWASP Top 10
-* 🔎 Security Research
 
+👉 Still learning Bug Hunting & Malware Forensics.
+
+👉 Managing Tech Communities & creating educational content.
+
+👉 Writing useful tools for myself & the community.
+
+👉 Building & contributing to Open Source Projects.
+
+👉 Currently learning Mobile Penetration Testing & Web3.
+
+Updating: Journey to Cybersecurity Specialist.
 ---
 
 
