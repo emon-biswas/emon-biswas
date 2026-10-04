@@ -19,10 +19,37 @@ I focus on cybersecurity, ethical hacking, web security, penetration testing, an
 
 ---
 
-## 🧰 Tools & Technologies
 
-`Kali Linux` • `Burp Suite` • `Nmap` • `Wireshark` • `Metasploit` • `Python` • `Git` • `GitHub` • `Sqlmap` • `hydra`
+## 🛠️ Tech Arsenal
 
+<p align="left">
+  <img src="https://img.shields.io/badge/BURP%20SUITE-000000?style=for-the-badge&logo=burpsuite&logoColor=FF6633" />
+  <img src="https://img.shields.io/badge/METASPLOIT-000000?style=for-the-badge&logo=metasploit&logoColor=2596CD" />
+  <img src="https://img.shields.io/badge/WIRESHARK-000000?style=for-the-badge&logo=wireshark&logoColor=1679A7" />
+  <img src="https://img.shields.io/badge/BASH-000000?style=for-the-badge&logo=gnubash&logoColor=4EAA25" />
+  <img src="https://img.shields.io/badge/PYTHON-000000?style=for-the-badge&logo=python&logoColor=3776AB" />
+  <img src="https://img.shields.io/badge/LINUX-000000?style=for-the-badge&logo=linux&logoColor=FCC624" />
+  <img src="https://img.shields.io/badge/GO-000000?style=for-the-badge&logo=go&logoColor=00ADD8" />
+  <img src="https://img.shields.io/badge/GIT-000000?style=for-the-badge&logo=git&logoColor=F05032" />
+  <img src="https://img.shields.io/badge/DEBIAN-000000?style=for-the-badge&logo=debian&logoColor=A81D33" />
+  <img src="https://img.shields.io/badge/DOCKER-000000?style=for-the-badge&logo=docker&logoColor=2496ED" />
+  <img src="https://img.shields.io/badge/FLUTTER-000000?style=for-the-badge&logo=flutter&logoColor=02569B" />
+  <img src="https://img.shields.io/badge/C-000000?style=for-the-badge&logo=c&logoColor=A8B9CC" />
+  <img src="https://img.shields.io/badge/C%2B%2B-000000?style=for-the-badge&logo=cplusplus&logoColor=00599C" />
+  <img src="https://img.shields.io/badge/JAVA-000000?style=for-the-badge&logo=openjdk&logoColor=ED8B00" />
+  <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=E34F26" />
+  <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=1572B6" />
+  <img src="https://img.shields.io/badge/JAVASCRIPT-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  <img src="https://img.shields.io/badge/BLACKARCH-000000?style=for-the-badge&logo=archlinux&logoColor=1793D1" />
+  <img src="https://img.shields.io/badge/MONGODB-000000?style=for-the-badge&logo=mongodb&logoColor=47A248" />
+  <img src="https://img.shields.io/badge/EXPRESSJS-000000?style=for-the-badge&logo=express&logoColor=FFFFFF" />
+  <img src="https://img.shields.io/badge/REACT-000000?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/PARROT%20OS-000000?style=for-the-badge&logo=parrotsecurity&logoColor=FFFFFF" />
+  <img src="https://img.shields.io/badge/NODE.JS-000000?style=for-the-badge&logo=nodedotjs&logoColor=339933" />
+  <img src="https://img.shields.io/badge/UBUNTU-000000?style=for-the-badge&logo=ubuntu&logoColor=E95420" />
+  <img src="https://img.shields.io/badge/KALI%20LINUX-000000?style=for-the-badge&logo=kalilinux&logoColor=557C94" />
+  <img src="https://img.shields.io/badge/VS%20CODE-000000?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" />
+</p>
 ---
 
 ## 📂 Featured Projects
