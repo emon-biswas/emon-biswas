@@ -98,7 +98,7 @@ Notes and write-ups from legal CTF and cybersecurity labs.
 
 ---
 
-📫 Find Me Around the Web
+<h2><strong>📫 Find Me Around the Web</strong></h2>
 
 <p align="left">
   <a href="https://www.linkedin.com/in/emonbiswas880/" target="_blank">
