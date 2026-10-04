@@ -16,7 +16,7 @@ I'm **Md Emon Biswas** — Ethical Hacker & Security Researcher, on my way to be
 - *Location:* Earth 🌍
 - *Roles:* Penetration Tester | Ethical Hacker | Bug Bounty Hunter | SOC Analyst
 - *Skilled in:* Bug Hunting | Social Engineering | Red Teaming | Malware Analysis
-- *Focused on:* Web Vulnerabilities | Web Pentesting | Web3 Security
+- *Focused on:* Web Vulnerabilities | Web Pentesting | System Pentesting | Web3 Security
 - *Currently Learning:* Everything cybersecurity-related
 - *Contact:* contact.emonbiswas.com
 
