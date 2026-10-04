@@ -73,6 +73,16 @@ Updating: Journey to Cybersecurity Specialist.
 </p>
 ---
 
+<h2>🌱 Currently Grinding</h2>
+
+<marquee behavior="scroll" direction="right" scrollamount="6">
+  <span style="color: limegreen; font-size: 22px;">
+    Red Team Automation
+  </span>
+</marquee>
+
+---
+
 ## 📂 Featured Projects
 
 🔹 **Web Security Labs**
