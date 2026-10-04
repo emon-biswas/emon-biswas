@@ -24,7 +24,7 @@ I'm **Md Emon Biswas** — Ethical Hacker & Security Researcher, on my way to be
 
 ---
 
-<h2><strong>📌 Present Status</strong></h2>
+<h2><strong>Present Status</strong></h2>
 
 ---
 
