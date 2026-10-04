@@ -95,3 +95,21 @@ Notes and write-ups from legal CTF and cybersecurity labs.
 > ** **
 >
 > **Emon Biswas | Cyber Security**
+
+---
+
+## ☕ SUPPORT
+
+<p align="left">
+  <a href="YOUR_BUYMEACOFFEE_LINK" target="_blank">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
+  </a>
+
+  <a href="YOUR_PATREON_LINK" target="_blank">
+    <img src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white" />
+  </a>
+
+  <a href="YOUR_KOFI_LINK" target="_blank">
+    <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" />
+  </a>
+</p>
