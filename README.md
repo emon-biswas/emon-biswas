@@ -116,7 +116,7 @@ Notes and write-ups from legal CTF and cybersecurity labs.
 
 ---
 
-## ☕ SUPPORT
+##  SUPPORT
 
 <p align="left">
   <a href="YOUR_BUYMEACOFFEE_LINK" target="_blank">
