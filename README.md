@@ -1,18 +1,26 @@
+<h2 align="center">
+  Hi there
+  <img src="https://camo.githubusercontent.com/33fa1ecbfc674cb894fee42114ce8034fc32529090afc1ef7ef03b2d45c87271/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6876524a434c467a6361737252346961377a2f67697068792e676966" width="30px">
+</h2>
+
+I'm **Md Emon Biswas** — Ethical Hacker & Security Researcher, on my way to becoming a full-fledged **Cybersecurity Specialist** and skilled **Bug Hunter**.
+
+> "Technology has always been my playground. From malware and exploits to reverse engineering and digital forensics — I thrive on breaking things ethically to make cyberspace stronger, smarter, and more secure."
+
 <details>
 <summary>👋 More About Me</summary>
 
 <br>
 
-- **Name:** Md Emon Biswas
-- **Location:** Earth 🌍
-- **Roles:** Penetration Tester | Ethical Hacker | Bug Bounty Hunter | SOC Analyst
-- **Skilled in:** Bug Hunting, Social Engineering, Red Teaming, Malware Analysis
-- **Focused on:** Web Vulnerabilities, Web Pentesting, Web3 Security
-- **Currently Learning:** Cybersecurity & Security Engineering
-- **Contact:** contact.emonbiswas.com
+- *Name:* Md Emon Biswas
+- *Location:* Earth 🌍
+- *Roles:* Penetration Tester | Ethical Hacker | Bug Bounty Hunter | SOC Analyst
+- *Skilled in:* Bug Hunting | Social Engineering | Red Teaming | Malware Analysis
+- *Focused on:* Web Vulnerabilities | Web Pentesting | Web3 Security
+- *Currently Learning:* Everything cybersecurity-related
+- *Contact:* contact.emonbiswas.com
 
 </details>
-
 ---
 
 Present Status
