@@ -50,9 +50,7 @@ Notes and write-ups from legal CTF and cybersecurity labs.
 
 ---
 
-## 🤝 Connect With Me
-
-## 🤝 Connect With Me
+📫 Find Me Around the Web
 
 <p align="left">
   <a href="https://www.linkedin.com/in/emonbiswas880/" target="_blank">
