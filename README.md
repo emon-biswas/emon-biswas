@@ -1,8 +1,17 @@
-# 👋 Hi, I'm Md Emon Biswas
+<details>
+<summary>👋 More About Me</summary>
 
-🔐 **Cyber Security | Ethical Hacking | Penetration Testing | Security Research**
+<br>
 
-I focus on cybersecurity, ethical hacking, web security, penetration testing, and practical security research.
+- **Name:** Md Emon Biswas
+- **Location:** Earth 🌍
+- **Roles:** Penetration Tester | Ethical Hacker | Bug Bounty Hunter | SOC Analyst
+- **Skilled in:** Bug Hunting, Social Engineering, Red Teaming, Malware Analysis
+- **Focused on:** Web Vulnerabilities, Web Pentesting, Web3 Security
+- **Currently Learning:** Cybersecurity & Security Engineering
+- **Contact:** contact.emonbiswas.com
+
+</details>
 
 ---
 
