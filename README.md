@@ -76,7 +76,7 @@ Updating: Journey to Cybersecurity Specialist.
 ## 🌱 Currently Grinding
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00FF00&vCenter=true&width=500&lines=Secure+Panda" alt="Secure Panda" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00FF00&vCenter=true&width=600&lines=Secure+Panda;Ethical+Hacker;Security+Researcher;Penetration+Tester" alt="Cybersecurity" />
 </p>
 
 ---
