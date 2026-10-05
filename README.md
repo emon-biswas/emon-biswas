@@ -1,6 +1,6 @@
 ## 🌱 Currently Grinding
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=35&pause=900&color=00FF00&background=00000000&vCenter=true&multiline=true&repeat=true&width=900&height=260&lines=%24+sudo+apt+update;Hit%3A1+http%3A%2F%2Fhttp.kali.org%2Fkali+kali-rolling+InRelease;Hit%3A2+http%3A%2F%2Fhttp.kali.org%2Fkali+kali-rolling+Release;Reading+package+lists...+Done;Building+dependency+tree...+Done;Reading+state+information...+Done;%24+pwd;%2Fhome%2Femon%2FEmon-Biswas;%24+whoami;Secure+Panda)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=35&pause=900&color=00FF00&background=00000000&vCenter=true&multiline=true&repeat=true&width=900&height=260&lines=%24+sudo+apt+update;Hit%3A1+http%3A%2F%2Fhttp.kali.org%2Fkali+kali-rolling+InRelease;Hit%3A2+http%3A%2F%2Fhttp.kali.org%2Fkali+kali-rolling+Release;Reading+package+lists...+Done;Building+dependency+tree...+Done;Reading+state+information...+Done;%24+pwd;%2Fhome%2Femon%2FEmon-Biswas;%24+whoami;Secure+Panda&loop=1)](https://git.io/typing-svg)
 ---
 
 
