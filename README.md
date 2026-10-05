@@ -35,7 +35,7 @@ I'm **Md Emon Biswas** — Ethical Hacker & Security Researcher, on my way to be
 
 👉 Building & contributing to Open Source Projects.
 
-👉 Currently learning Mobile Penetration Testing & Web3.
+👉 Currently learning Penetration Testing , SOC Analyst & Web3.
 
 Updating: Journey to Cybersecurity Specialist.
 ---
