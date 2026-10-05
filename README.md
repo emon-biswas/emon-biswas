@@ -122,13 +122,6 @@ Notes and write-ups from legal CTF and cybersecurity labs.
 
 ---
 
-> ⚠️ All security research and testing shared here is intended for educational purposes and authorized environments only.
->
-> ** **
->
-> **Emon Biswas | Cyber Security**
-
----
 
 ##  SUPPORT
 
@@ -145,3 +138,13 @@ Notes and write-ups from legal CTF and cybersecurity labs.
     <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" />
   </a>
 </p>
+
+---
+
+> ⚠️ All security research and testing shared here is intended for educational purposes and authorized environments only.
+>
+> ** **
+>
+> **Emon Biswas | Cyber Security**
+
+---
