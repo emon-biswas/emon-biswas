@@ -1,4 +1,14 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=100&pause=700&color=00FF00&background=00000000&vCenter=true&width=650&height=100&lines=%24+whoami;emon;%24+sudo+emon+panda;Secure+Panda)](https://git.io/typing-svg)
+$ sudo apt update
+Hit:1 http://http.kali.org/kali kali-rolling InRelease
+Reading package lists... Done
+Building dependency tree... Done
+All packages are up to date.
+
+$ pwd
+/home/emon/Emon-Biswas
+
+$ whoami
+Secure Panda
 ---
 
 <h2 align="center">
