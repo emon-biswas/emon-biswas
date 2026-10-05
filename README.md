@@ -1,5 +1,3 @@
-## 🌱 Currently Grinding
-
 <p align="left">
   <img src="./assets/terminal.svg" width="900" alt="Terminal Animation">
 </p>
