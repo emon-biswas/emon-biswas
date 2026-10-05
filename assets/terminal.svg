@@ -105,9 +105,6 @@
         class="terminal"
         opacity="0">
 
- 
-  </text>
-
 
   <!-- ================================= -->
   <!-- $ whoami -->
@@ -135,7 +132,7 @@
         class="terminal"
         opacity="0">
 
-    Secure Panda
+    MD EMON BISWAS - Penetration Tester
 
     <animate
       attributeName="opacity"
