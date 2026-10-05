@@ -1,147 +1,136 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="900"
-     height="330"
-     viewBox="0 0 900 330">
+from PIL import Image, ImageDraw, ImageFont
 
-  <rect width="900" height="330" fill="#000000"/>
+WIDTH = 900
+HEIGHT = 330
 
-  <style>
-    .terminal {
-      font-family: "Fira Code", "Courier New", monospace;
-      font-size: 18px;
-      fill: #00FF00;
-    }
-  </style>
+BG = (0, 0, 0)
+GREEN = (0, 255, 0)
 
-  <!-- ================================= -->
-  <!-- $ sudo apt update - typing -->
-  <!-- ================================= -->
+try:
+    FONT = ImageFont.truetype("C:/Windows/Fonts/consola.ttf", 18)
+except:
+    FONT = ImageFont.load_default()
 
-  <text x="20" y="30"
-        class="terminal"
-        opacity="0">
-
-    $ sudo apt update
-
-    <animate
-      attributeName="opacity"
-      values="0;1"
-      dur="0.01s"
-      begin="0s;16s"
-      fill="freeze"/>
-
-  </text>
-
-</text
-
-  <!-- ================================= -->
-  <!-- APT OUTPUT -->
-  <!-- ================================= -->
-
-  <g class="terminal">
-
-    <text x="20" y="60" opacity="0">
-      Hit:1 http://http.kali.org/kali kali-rolling InRelease
-
-      <animate
-        attributeName="opacity"
-        values="0;1"
-        dur="0.01s"
-        begin="1.7s;17.7s"
-        fill="freeze"/>
-    </text>
-
-    <text x="20" y="86" opacity="0">
-      Hit:2 http://http.kali.org/kali kali-rolling Release
-
-      <animate
-        attributeName="opacity"
-        values="0;1"
-        dur="0.01s"
-        begin="1.9s;17.9s"
-        fill="freeze"/>
-    </text>
-
-    <text x="20" y="112" opacity="0">
-      Reading package lists... Done
-
-      <animate
-        attributeName="opacity"
-        values="0;1"
-        dur="0.01s"
-        begin="2.1s;18.1s"
-        fill="freeze"/>
-    </text>
-
-    <text x="20" y="138" opacity="0">
-      Building dependency tree... Done
-
-      <animate
-        attributeName="opacity"
-        values="0;1"
-        dur="0.01s"
-        begin="2.3s;18.3s"
-        fill="freeze"/>
-    </text>
-
-    <text x="20" y="164" opacity="0">
-      Reading state information... Done
-
-      <animate
-        attributeName="opacity"
-        values="0;1"
-        dur="0.01s"
-        begin="2.5s;18.5s"
-        fill="freeze"/>
-    </text>
-
-  </g>
+frames = []
+durations = []
 
 
-  <!-- ================================= -->
-  <!-- $ pwd -->
-  <!-- ================================= -->
+def add_frame(lines, duration=0.08):
+    img = Image.new("RGB", (WIDTH, HEIGHT), BG)
+    draw = ImageDraw.Draw(img)
 
-  <text x="20" y="205"
-        class="terminal"
-        opacity="0">
+    y = 20
 
+    for line in lines:
+        draw.text(
+            (20, y),
+            line,
+            font=FONT,
+            fill=GREEN
+        )
+        y += 26
 
-  <!-- ================================= -->
-  <!-- $ whoami -->
-  <!-- ================================= -->
-
-  <text x="20" y="273"
-        class="terminal"
-        opacity="0">
-
-    $ whoami
-
-    <animate
-      attributeName="opacity"
-      values="0;1"
-      dur="0.01s"
-      begin="6s;22s"
-      fill="freeze"/>
-
-  </text>
+    frames.append(img)
+    durations.append(int(duration * 1000))
 
 
-  <!-- MD EMON BISWAS - Penetration Tester -->
+# =========================================
+# 1. sudo apt update — LETTER BY LETTER
+# =========================================
 
-  <text x="20" y="300"
-        class="terminal"
-        opacity="0">
+command = "$ sudo apt update"
 
-    MD EMON BISWAS - Penetration Tester
+lines = []
 
-    <animate
-      attributeName="opacity"
-      values="0;1"
-      dur="0.01s"
-      begin="6.8s;22.8s"
-      fill="freeze"/>
+for i in range(1, len(command) + 1):
+    lines = [command[:i]]
+    add_frame(lines, 0.08)
 
-  </text>
 
-</svg>
+# =========================================
+# 2. APT OUTPUT
+# =========================================
+
+outputs = [
+    "Hit:1 http://http.kali.org/kali kali-rolling InRelease",
+    "Hit:2 http://http.kali.org/kali kali-rolling Release",
+    "Reading package lists... Done",
+    "Building dependency tree... Done",
+    "Reading state information... Done"
+]
+
+for output in outputs:
+    lines.append(output)
+    add_frame(lines, 0.20)
+
+
+# =========================================
+# 3. pwd — LETTER BY LETTER
+# =========================================
+
+lines.append("")
+
+command = "$ pwd"
+typed = ""
+
+for char in command:
+    typed += char
+    add_frame(lines + [typed], 0.10)
+
+# Keep the completed command
+lines.append(command)
+add_frame(lines, 0.20)
+
+
+# pwd OUTPUT
+lines.append("/home/emon/Emon-Biswas")
+add_frame(lines, 0.60)
+
+
+# =========================================
+# 4. whoami — LETTER BY LETTER
+# =========================================
+
+lines.append("")
+
+command = "$ whoami"
+typed = ""
+
+for char in command:
+    typed += char
+    add_frame(lines + [typed], 0.10)
+
+# Keep the completed command
+lines.append(command)
+add_frame(lines, 0.20)
+
+
+# =========================================
+# 5. whoami OUTPUT
+# =========================================
+
+lines.append("Md Emon Biswas - Penetration Tester")
+add_frame(lines, 5.0)
+
+
+# =========================================
+# 6. CLEAR SCREEN
+# =========================================
+
+add_frame([], 0.20)
+add_frame([], 0.20)
+
+
+# =========================================
+# 7. SAVE GIF
+# =========================================
+
+frames[0].save(
+    "terminal.gif",
+    save_all=True,
+    append_images=frames[1:],
+    duration=durations,
+    loop=0
+)
+
+print("terminal.gif created successfully!")
