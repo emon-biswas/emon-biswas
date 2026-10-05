@@ -8,7 +8,7 @@ I'm **Md Emon Biswas** — Ethical Hacker & Security Researcher, on my way to be
 > "Technology has always been my playground. From malware and exploits to reverse engineering and digital forensics — I thrive on breaking things ethically to make cyberspace stronger, smarter, and more secure."
 
 <details>
-<summary><strong>👋 More About Me</strong></summary>
+<summary><strong> More About Me</strong></summary>
 
 <br>
 
