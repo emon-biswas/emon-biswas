@@ -1,129 +1,128 @@
-from PIL import Image, ImageDraw, ImageFont
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="900"
+     height="300"
+     viewBox="0 0 900 300">
 
-WIDTH = 900
-HEIGHT = 330
+  <rect width="900" height="300" fill="#000000"/>
 
-BG = (0, 0, 0)
-GREEN = (0, 255, 0)
+  <style>
+    .terminal {
+      font-family: "Fira Code", "Courier New", monospace;
+      font-size: 18px;
+      fill: #00FF00;
+    }
+  </style>
 
-try:
-    FONT = ImageFont.truetype("C:/Windows/Fonts/consola.ttf", 18)
-except:
-    FONT = ImageFont.load_default()
+  <!-- $ sudo apt update -->
 
-frames = []
-durations = []
+  <text x="20" y="30"
+        class="terminal"
+        opacity="0">
 
+    $ sudo apt update
 
-def add_frame(lines, duration):
-    img = Image.new("RGB", (WIDTH, HEIGHT), BG)
-    draw = ImageDraw.Draw(img)
-
-    y = 20
-
-    for line in lines:
-        draw.text(
-            (20, y),
-            line,
-            font=FONT,
-            fill=GREEN
-        )
-        y += 26
-
-    frames.append(img)
-    durations.append(int(duration * 1000))
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="0.01s"
+      begin="0s;16s"
+      fill="freeze"/>
+  </text>
 
 
-# =========================
-# sudo apt update
-# =========================
+  <!-- APT OUTPUT -->
 
-command = "$ sudo apt update"
-lines = []
+  <g class="terminal">
 
-for i in range(1, len(command) + 1):
-    add_frame([command[:i]], 0.08)
+    <text x="20" y="65" opacity="0">
+      Hit:1 http://http.kali.org/kali kali-rolling InRelease
 
+      <animate
+        attributeName="opacity"
+        values="0;1"
+        dur="0.01s"
+        begin="1.7s;17.7s"
+        fill="freeze"/>
+    </text>
 
-# =========================
-# APT OUTPUT
-# =========================
+    <text x="20" y="91" opacity="0">
+      Hit:2 http://http.kali.org/kali kali-rolling Release
 
-outputs = [
-    "Hit:1 http://http.kali.org/kali kali-rolling InRelease",
-    "Hit:2 http://http.kali.org/kali kali-rolling Release",
-    "Reading package lists... Done",
-    "Building dependency tree... Done",
-    "Reading state information... Done"
-]
+      <animate
+        attributeName="opacity"
+        values="0;1"
+        dur="0.01s"
+        begin="1.9s;17.9s"
+        fill="freeze"/>
+    </text>
 
-for output in outputs:
-    lines.append(output)
-    add_frame(lines, 0.20)
+    <text x="20" y="117" opacity="0">
+      Reading package lists... Done
 
+      <animate
+        attributeName="opacity"
+        values="0;1"
+        dur="0.01s"
+        begin="2.1s;18.1s"
+        fill="freeze"/>
+    </text>
 
-# =========================
-# pwd
-# =========================
+    <text x="20" y="143" opacity="0">
+      Building dependency tree... Done
 
-lines.append("")
+      <animate
+        attributeName="opacity"
+        values="0;1"
+        dur="0.01s"
+        begin="2.3s;18.3s"
+        fill="freeze"/>
+    </text>
 
-command = "$ pwd"
-typed = ""
+    <text x="20" y="169" opacity="0">
+      Reading state information... Done
 
-for char in command:
-    typed += char
-    add_frame(lines + [typed], 0.10)
+      <animate
+        attributeName="opacity"
+        values="0;1"
+        dur="0.01s"
+        begin="2.5s;18.5s"
+        fill="freeze"/>
+    </text>
 
-lines.append(command)
-
-add_frame(lines, 0.20)
-
-lines.append("/home/emon/Emon-Biswas")
-
-add_frame(lines, 0.60)
-
-
-# =========================
-# whoami
-# =========================
-
-lines.append("")
-
-command = "$ whoami"
-typed = ""
-
-for char in command:
-    typed += char
-    add_frame(lines + [typed], 0.10)
-
-lines.append(command)
-
-add_frame(lines, 0.20)
-
-lines.append("Emon Biswas - Penetration Tester")
-
-add_frame(lines, 5.0)
+  </g>
 
 
-# =========================
-# CLEAR
-# =========================
+  <!-- $ whoami -->
 
-add_frame([], 0.20)
-add_frame([], 0.20)
+  <text x="20" y="220"
+        class="terminal"
+        opacity="0">
+
+    $ whoami
+
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="0.01s"
+      begin="4s;20s"
+      fill="freeze"/>
+  </text>
 
 
-# =========================
-# SAVE GIF
-# =========================
+  <!-- Identity -->
 
-frames[0].save(
-    "terminal.gif",
-    save_all=True,
-    append_images=frames[1:],
-    duration=durations,
-    loop=0
-)
+  <text x="20" y="260"
+        class="terminal"
+        opacity="0">
 
-print("terminal.gif created successfully!")
+    MdEmon Biswas - Penetration Tester
+
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="0.01s"
+      begin="4.8s;20.8s"
+      fill="freeze"/>
+  </text>
+
+</svg>
