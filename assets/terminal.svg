@@ -1,115 +1,175 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      width="900"
-     height="300"
-     viewBox="0 0 900 300">
+     height="330"
+     viewBox="0 0 900 330">
 
-  <rect width="900" height="300" fill="#000000"/>
+  <rect width="900" height="330" fill="#000000"/>
 
   <style>
-    text {
+    .terminal {
       font-family: "Fira Code", "Courier New", monospace;
       font-size: 18px;
       fill: #00FF00;
     }
   </style>
 
-  <!-- $ sudo apt update -->
-  <text x="20" y="30">
-    <tspan>$ sudo apt update</tspan>
+  <!-- ================================= -->
+  <!-- $ sudo apt update - typing -->
+  <!-- ================================= -->
+
+  <text x="20" y="30"
+        class="terminal"
+        opacity="0">
+
+    $ sudo apt update
+
     <animate
       attributeName="opacity"
       values="0;1"
-      dur="0.1s"
-      begin="0s"
+      dur="0.01s"
+      begin="0s;16s"
       fill="freeze"/>
+
   </text>
 
-  <!-- apt output -->
-  <g>
-    <text x="20" y="58">
+
+  <!-- ================================= -->
+  <!-- APT OUTPUT -->
+  <!-- ================================= -->
+
+  <g class="terminal">
+
+    <text x="20" y="60" opacity="0">
       Hit:1 http://http.kali.org/kali kali-rolling InRelease
-      <animate attributeName="opacity"
-               from="0" to="1"
-               dur="0.1s"
-               begin="1.5s"
-               fill="freeze"/>
+
+      <animate
+        attributeName="opacity"
+        values="0;1"
+        dur="0.01s"
+        begin="1.7s;17.7s"
+        fill="freeze"/>
     </text>
 
-    <text x="20" y="84">
+    <text x="20" y="86" opacity="0">
       Hit:2 http://http.kali.org/kali kali-rolling Release
-      <animate attributeName="opacity"
-               from="0" to="1"
-               dur="0.1s"
-               begin="1.7s"
-               fill="freeze"/>
+
+      <animate
+        attributeName="opacity"
+        values="0;1"
+        dur="0.01s"
+        begin="1.9s;17.9s"
+        fill="freeze"/>
     </text>
 
-    <text x="20" y="110">
+    <text x="20" y="112" opacity="0">
       Reading package lists... Done
-      <animate attributeName="opacity"
-               from="0" to="1"
-               dur="0.1s"
-               begin="1.9s"
-               fill="freeze"/>
+
+      <animate
+        attributeName="opacity"
+        values="0;1"
+        dur="0.01s"
+        begin="2.1s;18.1s"
+        fill="freeze"/>
     </text>
 
-    <text x="20" y="136">
+    <text x="20" y="138" opacity="0">
       Building dependency tree... Done
-      <animate attributeName="opacity"
-               from="0" to="1"
-               dur="0.1s"
-               begin="2.1s"
-               fill="freeze"/>
+
+      <animate
+        attributeName="opacity"
+        values="0;1"
+        dur="0.01s"
+        begin="2.3s;18.3s"
+        fill="freeze"/>
     </text>
 
-    <text x="20" y="162">
+    <text x="20" y="164" opacity="0">
       Reading state information... Done
-      <animate attributeName="opacity"
-               from="0" to="1"
-               dur="0.1s"
-               begin="2.3s"
-               fill="freeze"/>
+
+      <animate
+        attributeName="opacity"
+        values="0;1"
+        dur="0.01s"
+        begin="2.5s;18.5s"
+        fill="freeze"/>
     </text>
+
   </g>
 
+
+  <!-- ================================= -->
   <!-- $ pwd -->
-  <text x="20" y="205">
+  <!-- ================================= -->
+
+  <text x="20" y="205"
+        class="terminal"
+        opacity="0">
+
     $ pwd
-    <animate attributeName="opacity"
-             from="0" to="1"
-             dur="0.1s"
-             begin="3.8s"
-             fill="freeze"/>
+
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="0.01s"
+      begin="4s;20s"
+      fill="freeze"/>
+
   </text>
+
 
   <!-- pwd output -->
-  <text x="20" y="232">
+
+  <text x="20" y="232"
+        class="terminal"
+        opacity="0">
+
     /home/emon/Emon-Biswas
-    <animate attributeName="opacity"
-             from="0" to="1"
-             dur="0.1s"
-             begin="4.5s"
-             fill="freeze"/>
+
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="0.01s"
+      begin="4.7s;20.7s"
+      fill="freeze"/>
+
   </text>
 
+
+  <!-- ================================= -->
   <!-- $ whoami -->
-  <text x="20" y="270">
+  <!-- ================================= -->
+
+  <text x="20" y="273"
+        class="terminal"
+        opacity="0">
+
     $ whoami
-    <animate attributeName="opacity"
-             from="0" to="1"
-             dur="0.1s"
-             begin="5.5s"
-             fill="freeze"/>
+
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="0.01s"
+      begin="6s;22s"
+      fill="freeze"/>
+
   </text>
+
 
   <!-- Secure Panda -->
-  <text x="20" y="296">
+
+  <text x="20" y="300"
+        class="terminal"
+        opacity="0">
+
     Secure Panda
-    <animate attributeName="opacity"
-             from="0" to="1"
-             dur="0.1s"
-             begin="6.3s"
-             fill="freeze"/>
+
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="0.01s"
+      begin="6.8s;22.8s"
+      fill="freeze"/>
+
   </text>
 
 </svg>
