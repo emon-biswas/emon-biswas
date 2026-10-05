@@ -1,14 +1,4 @@
-$ sudo apt update
-Hit:1 http://http.kali.org/kali kali-rolling InRelease
-Reading package lists... Done
-Building dependency tree... Done
-All packages are up to date.
-
-$ pwd
-/home/emon/Emon-Biswas
-
-$ whoami
-Secure Panda
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=70&pause=1000&color=00FF00&background=00000000&vCenter=true&multiline=true&repeat=true&width=850&height=180&lines=%24+sudo+apt+update;%24+pwd;%2Fhome%2Femon%2FEmon-Biswas;%24+whoami;Secure+Panda)](https://git.io/typing-svg)
 ---
 
 <h2 align="center">
