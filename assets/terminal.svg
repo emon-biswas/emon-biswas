@@ -109,7 +109,7 @@ add_frame(lines, 0.20)
 # 5. whoami OUTPUT
 # =========================================
 
-lines.append("Md Emon Biswas - Penetration Tester")
+lines.append("Emon Biswas - Penetration Tester")
 add_frame(lines, 5.0)
 
 
