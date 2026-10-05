@@ -1,5 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=100&pause=700&color=00FF00&vCenter=true&width=700&height=100&lines=root%40kali%3A~%23+whoami;emon;root%40kali%3A~%23+sudo+emon+panda;Secure+Panda)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=100&pause=700&color=00FF00&background=00000000&vCenter=true&width=650&height=100&lines=%24+whoami;emon;%24+sudo+emon+panda;Secure+Panda)](https://git.io/typing-svg)
 ---
 
 <h2 align="center">
