@@ -73,13 +73,11 @@ Updating: Journey to Cybersecurity Specialist.
 </p>
 ---
 
-<h2>🌱 Currently Grinding</h2>
+## 🌱 Currently Grinding
 
-<marquee behavior="scroll" direction="right" scrollamount="6">
-  <span style="color: limegreen; font-size: 22px;">
-    Red Team Automation
-  </span>
-</marquee>
+<p align="left">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00FF00&vCenter=true&width=500&lines=Secure+Panda" alt="Secure Panda" />
+</p>
 
 ---
 
