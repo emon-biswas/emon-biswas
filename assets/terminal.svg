@@ -105,33 +105,7 @@
         class="terminal"
         opacity="0">
 
-    $ pwd
-
-    <animate
-      attributeName="opacity"
-      values="0;1"
-      dur="0.01s"
-      begin="4s;20s"
-      fill="freeze"/>
-
-  </text>
-
-
-  <!-- pwd output -->
-
-  <text x="20" y="232"
-        class="terminal"
-        opacity="0">
-
-    /home/emon/Emon-Biswas
-
-    <animate
-      attributeName="opacity"
-      values="0;1"
-      dur="0.01s"
-      begin="4.7s;20.7s"
-      fill="freeze"/>
-
+ 
   </text>
 
 
